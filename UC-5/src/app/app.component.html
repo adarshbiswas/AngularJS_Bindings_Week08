@@ -1,0 +1,5 @@
+<input type="text" placeholder="Enter your name" />
+<h1 *ngIf="isValidName()">Hello from BridgeLabz, {{ userName }}</h1>
+<p *ngIf="!isValidName()" style="color: red">
+  Invalid Name! Must start with a capital and be at least 3 letters.
+</p>
